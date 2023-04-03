@@ -22,7 +22,7 @@ struct FloatingBorderLabelTextField: View {
         ZStack(alignment: .leading) {
             Text(placholder)
                 .font(.system(self.text.isEmpty ? .title2 : .title3, design: .rounded))
-                .foregroundColor(.elements(.Epink))
+                .foregroundColor(.gray)
                 .padding(.horizontal)
                 .background(Color.white)
                 .offset(y: self.text.isEmpty ? 0 : -38)
@@ -30,7 +30,7 @@ struct FloatingBorderLabelTextField: View {
             
             TextField("", text: self.$text)
                 .font(.system(.title2, design: .rounded))
-                .foregroundColor(.elements(.Epink))
+                .foregroundColor(.gray)
         }
        // .animation(.easeOut)
         .padding(.horizontal)
