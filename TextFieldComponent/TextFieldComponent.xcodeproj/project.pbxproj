@@ -11,6 +11,7 @@
 		E471D0A729DAACDE00F58833 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471D0A629DAACDE00F58833 /* ContentView.swift */; };
 		E471D0A929DAACDF00F58833 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E471D0A829DAACDF00F58833 /* Assets.xcassets */; };
 		E471D0AD29DAACDF00F58833 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E471D0AC29DAACDF00F58833 /* Preview Assets.xcassets */; };
+		E471D0B429DAAE1F00F58833 /* FloatingBorderLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471D0B329DAAE1F00F58833 /* FloatingBorderLabelTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		E471D0A829DAACDF00F58833 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E471D0AA29DAACDF00F58833 /* TextFieldComponent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TextFieldComponent.entitlements; sourceTree = "<group>"; };
 		E471D0AC29DAACDF00F58833 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E471D0B329DAAE1F00F58833 /* FloatingBorderLabelTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingBorderLabelTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				E471D0A429DAACDE00F58833 /* TextFieldComponentApp.swift */,
 				E471D0A629DAACDE00F58833 /* ContentView.swift */,
+				E471D0B329DAAE1F00F58833 /* FloatingBorderLabelTextField.swift */,
 				E471D0A829DAACDF00F58833 /* Assets.xcassets */,
 				E471D0AA29DAACDF00F58833 /* TextFieldComponent.entitlements */,
 				E471D0AB29DAACDF00F58833 /* Preview Content */,
@@ -141,6 +144,7 @@
 			files = (
 				E471D0A729DAACDE00F58833 /* ContentView.swift in Sources */,
 				E471D0A529DAACDE00F58833 /* TextFieldComponentApp.swift in Sources */,
+				E471D0B429DAAE1F00F58833 /* FloatingBorderLabelTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

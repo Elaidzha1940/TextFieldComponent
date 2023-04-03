@@ -31,15 +31,13 @@ struct TextFieldComponent: View {
             }
         }
         .padding()
-       .frame(height: 54)
+        .frame(height: 54)
     }
 }
 
 struct TextFieldComponent_Preview: PreviewProvider {
     static var previews: some View {
-        self.devices {
-            TextFieldComponent()
-        }
+        TextFieldComponent()
     }
 }
 
